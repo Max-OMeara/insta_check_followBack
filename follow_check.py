@@ -33,7 +33,7 @@ follower_users = extract_user_values(followers)
 
 not_following_back = following_users - follower_users
 
-# Print Results
+# Prints the results
 print("Users you are following that are not following you back:")
 for user in not_following_back:
     print(user)
